@@ -1,0 +1,103 @@
+body {
+    background-color: #121212;
+    /* Sötétszürke háttér */
+    color: #e0e0e0;
+    /* Világos szürke szöveg a jobb olvashatóságért */
+    height: 100%;
+    width: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Navigációs sáv stílusa */
+.navbar {
+    background-color: #333333;
+    /* Sötét szürke navbar */
+}
+
+/* Kártyák és panelek háttérszíne */
+.card,
+.carousel-caption {
+    background-color: #1e1e1e;
+    /* Még sötétebb háttér a kártyáknak és feliratoknak */
+    color: #e0e0e0;
+    /* Világos szöveg a kontraszt miatt */
+}
+
+/* Gombok stílusa */
+.btn-primary {
+    background-color: #6200ea;
+    /* Lila gomb */
+    border-color: #6200ea;
+}
+
+.btn-primary:hover {
+    background-color: #3700b3;
+    /* Még sötétebb lila gomb hover állapotban */
+}
+
+/* A carousel kép átlátszóságának enyhe csökkentése */
+.carousel-item img {
+    opacity: 0.9;
+}
+
+/* Alapértelmezett szövegek és linkek */
+h1,
+h2,
+h5,
+p {
+    color: blueviolet;
+    /* Világos szöveg a sötét háttérhez */
+}
+
+a {
+    color: #bb86fc;
+}
+
+a:hover {
+    color: #bb86fc;
+    text-decoration: underline;
+}
+
+.mainDiv {
+    background-color: white;
+    color: blueviolet;
+    text-align: center;
+}
+
+.content {
+    flex: 1;
+}
+
+footer {
+
+    text-align: center;
+}
+
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #070505;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    background: #803636;
+}
+.product-card h3 {
+    color: #007bff;  /* Kék szín */
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.product-card img {
+    width: 150px;  /* Kép szélessége */
+    height: auto;  /* Arányos magasság */
+    display: block;
+    margin: 0 auto;  /* Kép középre igazítása */
+}
