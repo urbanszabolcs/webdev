@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Audio termékek')
+@section('title', 'Holló Vadászbolt -Audio termékek')
 
 @section('content')
     <h1>Audio termékek</h1>

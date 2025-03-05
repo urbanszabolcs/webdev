@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Autok')
+@section('title', 'Holló Vadászbolt - Autok')
 
 @section('content')
     <h1>Autok</h1>

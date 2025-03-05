@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webshop</title>
+    <title>Holló Vadászbolt - Elérhetőség</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
 
     <script src="{{ asset('assets/js/mainJs.js') }}" defer></script>
@@ -46,6 +46,21 @@
     
             <button type="submit" class="btn btn-primary">Küldés</button>
         </form>
+
+        <iframe
+        width="600"
+        height="450"
+        style="border:0"
+        loading="lazy"
+        allowfullscreen
+        referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAJFj5keCr2hLDG2hCUTfSnjTy4G4tOaQs
+          &q=Space+Needle,Seattle+WA">
+      </iframe>
+          &q=Space+Needle,Seattle+WA">
+      </iframe>
+      
+
     @endsection
     
 
